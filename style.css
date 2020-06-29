@@ -3,6 +3,10 @@ a {
   color: #58176e;
 }
 
+.footlink {
+  text-decoration: underline;
+}
+
 body {
   margin: 0px 0px 0px 0px;
   text-align: center;
