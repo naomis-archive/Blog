@@ -10,6 +10,8 @@ Your pull request should contain a new article file within the `Posts` folder. T
 
 You will also need to add a link to your article on the main `index.html` file. Place the link underneath the `new blog posts here` comment, using the same structure as the other links.
 
-## Feedback and Other Issues
+## Feedback, Bugs, and Contributions
 
-If you have feedback to provide, or encounter a bug with this webpage, you can submit a GitHub issue or [contact me directly](https://contact.nhcarrigan.com).
+If you have feedback or a bug report, you can create a GitHub issue or [contact me directly](https://contact.nhcarrigan.com).
+
+If you would like to contribute to the project, you may create a Pull Request containing your proposed changes and I will review it as soon as I am able!
