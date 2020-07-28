@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>APIs</title>
+    <link rel="stylesheet" type="text/css" href="posts.css" />
+  </head>
+  <body>
+    <div class="post">
+      <h1>APIs with my Discord Bot</h1>
+      <p class="small">28 July 2020</p>
+      <p>
+        When I woke up this morning, I had absolutely <em>zero</em> motivation
+        to work on code. I fumbled my way through my daily CodeWars algorithms
+        (choosing easy ones to avoid serious effort...), and then sat around
+        trying to decide what I wanted to actually work on. Finally I landed on
+        adding some new commands to my Discord bot.
+      </p>
+      <p>
+        The very first step was to adjust my bot's repository settings, however.
+        I had started to write some tests for the commands a while back, but
+        quickly discovered that "mocking" the Discord client interface was still
+        outside my skillset (there's a package for this, but the documentation
+        was severely inadequate). I had also set up integrations to run the
+        tests before each <code>git</code> commit, and with each pull request.
+        These integrations, as well as the test files, all got removed today.
+      </p>
+      <p>
+        After cleaning this up, I moved on to some commands. The first thing I
+        had explored was using the Dungeons and Dragons API to collect
+        information based on the user's query - however, the original plan for
+        this did not pan out and the idea was scrapped. The API has a different
+        endpoint for each category (i.e. monsters, spells), and my plan was to
+        allow the user to pass the category as a parameter for the command. But
+        each endpoint returns data in a different "shape" - it has different
+        properties. This made it difficult to write a TypeScript interface that
+        worked for every possible data structure. So I threw the idea out
+        entirely.
+      </p>
+      <p>
+        Then, while poking around in the Discord.js documentation, I ran across
+        an API example that used the Urban Dictionary API. Following the
+        example, I tried to implement this feature but the API was rejecting my
+        requests. It turns out, from what I could tell, that the API is not
+        actually public and the URL was blocking requests. I did a little
+        digging and found a third-party API that offered the same functionality,
+        but required registration. I was unwilling to do so, and binned this
+        idea.
+      </p>
+      <p>
+        Finally, I circled back around to the Dungeons and Dragons idea. This
+        time, I approached each category I wanted to support as a separate
+        command - so a command for looking up monsters, a command for looking up
+        spells, etc. This allowed me to build a separate interface for each
+        category, telling the code what any response for that category should
+        look like. This went quite smoothly, after figuring out the finer points
+        for sending the request and handling the response data. Interfaces with
+        arrays of sub-interfaces are fun! This endeavour was a success, and the
+        Dungeons and Dragons features have shipped to production.
+      </p>
+      <p>
+        All in all, it turned out to be a much more successful day than I had
+        anticipated, based on how the morning went.
+      </p>
+    </div>
+  </body>
+  <footer>
+    <a href="../index.html">Back to main page</a>
+  </footer>
+</html>
