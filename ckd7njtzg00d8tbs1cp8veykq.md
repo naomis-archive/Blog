@@ -12,7 +12,7 @@ I knew this was the route I wanted to go, but not how to go about it. I searched
 
 ## What's next?
 
-I fully intend to continue learning and building my skills. There were portions of the learning that did not particularly click with me (React, D3...) and I intend to continue exploring those concepts to solidify my knowledge and skills. I will also continue to build my portfolio and work on my personal projects (my [Discord Bot](https://www.nhcarrigan.com/discord-bot-documentation) being my pride and joy at the moment). I will also attempt to post regularly on this new blog - depreciating my [old one](https://www.nhcarrigan.com/Blog) in favour of this new platform. 
+I fully intend to continue learning and building my skills. There were portions of the learning that did not particularly click with me (React, D3...) and I intend to continue exploring those concepts to solidify my knowledge and skills. I will also continue to build my portfolio and work on my personal projects (my [Discord Bot](https://www.nhcarrigan.com/discord-bot-documentation) being my pride and joy at the moment). I will also attempt to post regularly on this new blog - depreciating my [old one](https://github.com/nhcarrigan/Blog/tree/master/archived%20blog%20files) in favour of this new platform. 
 
 ### `return`
 
