@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lack of Inspiration</title>
+    <link rel="stylesheet" type="text/css" href="posts.css" />
+  </head>
+  <body>
+    <div class="post">
+      <h1>I haven't ideas lately</h1>
+      <p class="small">10 June 2020</p>
+      <p>
+        For the past few days, I've found that I have lacked inspiration for
+        coding projects. I have gone back and tweaked a couple, but I have not
+        really built anything new. Today I finally decided to sit down and make
+        a new project. After struggling for a couple of hours to find an idea, I
+        landed upon creating a Magic: The Gathering card search website.
+      </p>
+      <p>
+        I had already used the MTG API in my Discord bot, so I was a little
+        familiar with the process. However, the discord bot runs on Heroku which
+        allows server-side code. With the intent of publishing this webapge on
+        GitHub Pages, I was limited to using the client-side .fetch() request. I
+        needed a lot of experimentation to make the code work properly...
+      </p>
+      <p>
+        The fetch function is a Promise, so it returns a Response. Initially, my
+        code called the fetch and followed it with a then function, but I was
+        running into the issue of the code returning a "Pending Promise", rather
+        than the data I was seeking. It took some playing around with the
+        async/await commands before I finally landed on a sufficient code.
+      </p>
+      <p>
+        The
+        <a href="https://www.nhcarrigan.com/mtg-search">MTG Card Search</a>
+        project is now live, which is great! But again I run in to the issue of
+        a lack of inspiration. I am thinking that the next project might be a
+        feeback form, which I can link to all of my projects. I'm not sure
+        though.
+      </p>
+    </div>
+  </body>
+  <footer>
+    <a href="../index.html">Back to main page</a>
+  </footer>
+</html>

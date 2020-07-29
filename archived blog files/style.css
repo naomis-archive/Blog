@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+  color: #58176e;
+}
+
+.footlink {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  background: url("../background.png") no-repeat center center fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-position: fixed;
+  background-size: cover;
+}
+
+.blog-link {
+  background: #e4c0f0;
+  border-radius: 10px;
+  color: black;
+  width: 30vw;
+  margin-left: 35vw;
+  margin-bottom: 2vh;
+  text-align: left;
+  padding: 5px 10px 10px 10px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.small {
+  margin-top: 0;
+  font-style: italic;
+  font-size: 10pt;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+#home {
+  margin-top: 0;
+}
