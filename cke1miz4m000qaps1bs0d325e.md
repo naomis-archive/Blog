@@ -40,12 +40,3 @@ If you call this function, you would see `Promise{<pending>}` in the console, be
 ```js
 async function good() {
   const data = await fetch(url)
-  console.log(data)
-}
-```
-
-This function, however, will log the actual response, as `await` tells the code to pause until the `fetch` promise is resolved, *then* logs the value of `data` to the console. 
-
-## Conclusion
-
-Hopefully this helps you understand `async/await` a little bit more. Please feel free to provide feedback or ideas on how this description could be improved!
