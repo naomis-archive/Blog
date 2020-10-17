@@ -8,7 +8,7 @@ Participating in Hacktoberfest as a contributor was surprisingly *fun*. In the b
 
 In the second week I decided to push myself further. I started to contribute to things completely outside of my techstack. I contributed to a repository of `.svg` heart images - and learned how to make SVGs in an image editor AND by modifying the code directly (how cool is it to code an image?). I also contributed to the Hacktoberfest site, which runs on Ruby and required me to set up Ubuntu for WSL (turns out Ruby and Windows don't get along). I scratched the surface of exploring Vue and Tailwind and Nuxt by contributing to an app that validates the eligibility of a repository for Hacktoberfest. 
 
-Those projects came from some awesome people I got to meet by hanging around the Hacktoberfest Discord server. I got to connect with Matt, the community manager for Hacktoberfest (and possibly the person responsible for 10% of the internet), Luke - a developer at Vonage and fellow Among Us fan, Raven - the DigitalOcean designer who swears he isn't a dev but still has a GitHub, Joe - the Raise.dev streamer who does a fantastic job streaming at 22:00, and countless other amazing developers.
+Those projects came from some awesome people I got to meet by hanging around the Hacktoberfest Discord server. I got to connect with Matt, the community manager for Hacktoberfest (and possibly the person responsible for 10% of the internet), Luke - a developer at Vonage and fellow Among Us fan, Raven - the DigitalOcean designer who swears they aren't a dev but still has a GitHub, Joe - the Raise.dev streamer who does a fantastic job streaming at 22:00, and countless other amazing developers.
 
 ## As a Maintainer
 
