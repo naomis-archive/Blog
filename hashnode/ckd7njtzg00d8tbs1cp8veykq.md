@@ -2,7 +2,7 @@
 
 # `Hello World~!`
 
-Welcome to my (new) blog! My name is Nicholas Carrigan, and I'm an aspiring software engineer. I am fairly new to the development world - I took the plunge back in April of 2020, and have not looked back. My experience began with the [FreeCodeCamp curriculum](https://freecodecamp.org), which was a completely new experience. I had absolutely *zero* familiarity with programming (I vaguely remember building a website back when I was 12, but that memory has long since escaped me), and this has turned into quite an adventure! I worked my way through the FCC curriculum, building a basic skill-set, and continue to seek new knowledge and grow my abilities.
+Welcome to my (new) blog! My name is Naomi Carrigan, and I'm an aspiring software engineer. I am fairly new to the development world - I took the plunge back in April of 2020, and have not looked back. My experience began with the [FreeCodeCamp curriculum](https://freecodecamp.org), which was a completely new experience. I had absolutely *zero* familiarity with programming (I vaguely remember building a website back when I was 12, but that memory has long since escaped me), and this has turned into quite an adventure! I worked my way through the FCC curriculum, building a basic skill-set, and continue to seek new knowledge and grow my abilities.
 
 ## Why development?
 
